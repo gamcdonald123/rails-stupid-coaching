@@ -1,0 +1,10 @@
+<div class="container-lg text-center" id="form">
+  <form action="/answer" method="get" data-turbo="false" class="row g-3">
+    <div class="col-auto">
+      <input type="text" name="question" value="<%= params[:question] %>" placeholder="Ask a question!" class="form-control">
+    </div>
+    <div class="col-auto">
+      <input type="submit" value="Ask!" class="btn btn-primary mb-3">
+    </div>
+  </form>
+</div>
